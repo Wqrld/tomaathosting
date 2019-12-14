@@ -1,0 +1,343 @@
+a:focus, a:hover {
+    color: #c42c2c;
+    outline: none;
+    text-decoration: none;
+}
+
+.strikethrough {
+    text-decoration: line-through;
+}
+
+.theme-color {
+    color: #c42c2c !important;
+}
+
+.gradient-1 {
+    background: linear-gradient(-54deg, #c42c2c 20%, #da1616 90%);
+}
+
+.theme-color-2 {
+    color: #373737;
+}
+
+.btn {
+    background-color: #373737;
+}
+
+.btn:hover, .btn:focus {
+    color: #fff;
+    border-color: #ffffff;
+    background-color: #c42c2c;
+}
+
+.btn-yellow {
+    background-color: #c42c2c !important;
+}
+
+.btn-yellow:hover, .btn-yellow:focus {
+    background-color: #373737 !important;
+}
+
+.slick-dots button {
+    border-color: #373737;
+}
+
+.slick-dots .slick-active button {
+    background-color: #373737;
+}
+
+#loading-wrap {
+    background-color: #ffff;
+}
+
+.landing-qualities-icon {
+    width: 100px;
+    margin-bottom: 25px;
+}
+
+.game-qualities-icon {
+    width: 60px;
+    margin-top: 25px;
+}
+
+.single-features:hover > i, .single-features:hover .arrow-line .circle-dot::after {
+    background: #c42c2c none repeat scroll 0 0;
+}
+
+.arrow-line .circle-dot {
+    border-top: 2px solid #c42c2c;
+    border-left: 2px solid #c42c2c;
+}
+
+.arrow-line .circle-dot::after {
+    background: #c42c2c none repeat scroll 0 0;
+    border: 3px solid #F4D47E;
+}
+
+.single-features > i {
+    color: #c42c2c;
+}
+
+.single-features:hover .arrow-line .circle-dot {
+    border-color: #e59c00;
+}
+
+.single-features:hover > i {
+    box-shadow: 0 0 20px #e59c00;
+    color: #fff;
+}
+
+.single-features:hover .arrow-line .circle-dot::after {
+  border-color: #e59c00;
+}
+
+#scrollUp {
+    background: #373737 none repeat scroll 0 0;
+}
+
+#scrollUp:hover {
+    background: #666666 none repeat scroll 0 0;
+}
+
+.logo {
+    width: 180px;
+}
+
+.loading-effect-custom {
+    width: 225px;
+    margin: -25px 0 0 -112px;
+    margin-top: -25px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: -112px;
+    height: 60px;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+}
+
+.game-product-icons {
+    width: 65px;
+    margin: 10px;
+    margin-top: 20px;
+}
+
+.table-header-small {
+    height: 145px !important;
+}
+
+.billingcycle {
+    margin: 10px !important;
+    margin-bottom: 13px !important;
+}
+
+.mb-40-important {
+    margin-bottom: 40px !important;
+}
+
+.single-table .content .btn{
+  	border-left: 1px solid #81aaf9;
+  	border-right: 1px solid #a870fe;
+  	background-image: -webkit-linear-gradient(left, #373737, #a870fe), -webkit-linear-gradient(left, #81aaf9, #a870fe);
+  	background-image: linear-gradient(left, #373737, #a870fe), linear-gradient(left, #81aaf9, #a870fe);
+}
+
+.middle.single-table .content .btn,
+.single-table .content .btn:hover {
+    background: #373737; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(-36deg, #373737, #4f4f4f); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(-36deg, #373737, #4f4f4f); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(-36deg, #373737, #4f4f4f); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(-36deg, #373737, #4f4f4f); /* Standard syntax (must be last) */
+  	color: #fff;
+}
+
+.content-height-small {
+    height: 150px !important;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+.rotate-90 {
+    transform: rotate(90deg);
+}
+
+.single-table.middle .head {
+    height: 265px;
+    overflow: hidden;
+}
+
+.product-box-0 {
+    height: 140px !important;
+    overflow: hidden;
+}
+
+.product-box-1 {
+    height: 180px !important;
+    overflow: hidden;
+}
+
+.product-box-3 {
+    height: 200px !important;
+    overflow: hidden;
+}
+
+.help-box {
+    height: 320px !important;
+    overflow: hidden;
+}
+
+.middle .featured h4 {
+    line-height: 33px;
+    right: -50px;
+    top: 25px;
+    transform: rotate(45deg);
+    width: 220px;
+}
+
+@media (max-width: 767px) {
+.table-header-small {
+    height: 150px !important;
+}
+
+.arrow-line {
+    display: none;
+}
+
+.header-top .navbar-collapse {
+    background: #c42c2c; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(-54deg, #c42c2c 20%, #da1616 90%) !important; /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(-54deg, #c42c2c 20%, #da1616 90%) !important; /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(-54deg, #c42c2c 20%, #da1616 90%) !important; /* For Firefox 3.6 to 15 */
+    background: linear-gradient(54deg, #c42c2c 20%, #da1616 90%) !important; /* Standard syntax (must be last) */
+    top: 5px;
+}
+}
+
+@media (max-width: 1200px) {
+    .loginbutton {
+        display: none;
+    }
+
+    .navbar-toggle {
+        position: absolute;
+        right: 0px;
+        top: 0;
+    }
+
+    .tablet-mb-30 {
+        margin-bottom: 30px;
+    }
+}
+
+.kaasknaller-one {
+    top: 15px !important;
+}
+
+.kaasknaller-teamspeak {
+    right: -60px !important;
+}
+
+/* KaasKnaller Mobile Fixes */
+@media (max-width: 1394px) {
+    .middle .featured h4 {
+        display: none !important;
+    }
+}
+
+.theme-bg {
+    background: #da1616 none repeat scroll 0 0;
+    background-image: none;
+    background-position-x: 0px;
+    background-position-y: 0px;
+    background-size: initial;
+    background-repeat-x: repeat;
+    background-repeat-y: repeat;
+    background-attachment: scroll;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(249, 172, 6);
+}
+
+.ps-20 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.social-icon li a:hover {
+    background: #fff none repeat scroll 0 0;
+    color: #373737;
+}
+
+.footer-area a {
+    color: #ffff;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 1.9;
+}
+
+.footer-area p {
+    color: #ffff;
+    font-family: 'Montserrat';
+}
+
+.footer-area a:hover {
+    color: #373737;
+}
+
+.img-rounded {
+    border-radius: 6px;
+}
+
+.img-mh-400 {
+    max-height: 400px;
+}
+
+.h-205 {
+    height: 205px !important;
+}
+
+.gameserver-content-height {
+    height: 210px;
+}
+
+.small-btn {
+    border: 0 none;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+    color: #fff;
+    font-size: 13px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 36px;
+    transition: all 0.3s ease 0s;
+    font-weight: 500;
+}
+
+.pt-120 {
+    padding-top: 120px !important;
+}
+
+.grow {
+    transition: all .2s ease-in-out;
+}
+
+.grow:hover {
+    transform: scale(1.05);
+}
+
+.head-types {
+    height: 350px !important;
+}
+
+.read-more {
+    transition: all .3s ease-in-out;
+}
+
+.read-more:hover {
+    transform: scale(1.1);
+    opacity: 1;
+}
